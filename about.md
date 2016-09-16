@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
 
-I'm a mid-career professional re-training in design and web development. This is where I'll test out new code, store my projects, and solidify my new knowledge.
+I'm a mid-career professional re-training in design and web development. This is where I'll test new code and document my progress.
+
+[Twitter](https://www.twitter.com/glenpe)
