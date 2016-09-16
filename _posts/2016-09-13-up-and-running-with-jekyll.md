@@ -25,13 +25,3 @@ Also, why isn't SublimeText highlighting my markup?
 It seems like lots of the resources for Ruby/Jekyll (including the people on StackOverflow in general) are purposely obscure. It's how nerds take the power back I suppose. I'm going to try to avoid that here.
 
 
-```
-
- ██████╗ ██╗     ███████╗███╗   ██╗    ██████╗ ███████╗██████╗ ██████╗ ██╗   ██╗
-██╔════╝ ██║     ██╔════╝████╗  ██║    ██╔══██╗██╔════╝██╔══██╗██╔══██╗╚██╗ ██╔╝
-██║  ███╗██║     █████╗  ██╔██╗ ██║    ██████╔╝█████╗  ██████╔╝██████╔╝ ╚████╔╝ 
-██║   ██║██║     ██╔══╝  ██║╚██╗██║    ██╔═══╝ ██╔══╝  ██╔══██╗██╔══██╗  ╚██╔╝  
-╚██████╔╝███████╗███████╗██║ ╚████║    ██║     ███████╗██║  ██║██║  ██║   ██║   
- ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝    ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
-                                                                                
-```
