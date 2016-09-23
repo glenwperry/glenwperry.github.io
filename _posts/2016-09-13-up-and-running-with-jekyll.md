@@ -8,20 +8,30 @@ tags: "jekyll, ruby, static sites, local server, markdown, rouge"
 
 Introduction
 ------------
-Here's my first post on my new Jekyll built blog running on Windows. I'm going to break down how I got this thing working because it took me several hours and wasn't nearly as "easy and simple" as everyone on the internet says it is. This is also my first time using markup! I'm excited to see how this turns out.
+Here's my first post on my new Jekyll built blog running on Windows. I originally intended to write a detailed post about how I got Jekyll working on Windows 10, but the truth is I barely understand how I did it. It was a lot of fumbling around and typing things I don't understand into the command prompt. I'm working out the following issues, though, and feel that I may be able to better explain the process in the future.
 
-Things I might consume to celebrate:
+Still Working Out
+-----------------
 
-- Potatoes
-- Stuffed Grape Leaves
-- Baby Back Ribs
+- Proper syntax highlighting with Rouge
+- Markup syntax mastery ("~"~"strike-through"~"~"")
+- Switching style-sheets for mobile/responsiveness
+- ~~Getting a markup spell-checker in SublimeText~~
+- Getting Auto-Regenerate to work
+- Pushing changes from command prompt to Github pages
+- Figuring out why markup changes to code colors for no apparent reason (escape commands?)
+- Command prompt tricks to avoid pasting in long file locations
+- SublimeText keyboard shortcuts, proper use of "projects"
+- Fix word wrap in syntax highlighting
+- Finish object methods prompt
+- Finish alternating numbers prompt
+- Get subtitle working in YAML
 
-Okay, so that unordered list didn't quite work out (got it working, needed a line break). Also, my auto-regeneration isn't working. There's an error, and then it says "no such file or directory - git rev-parse HEAD." Which doesn't make sense because - of course there's a file...I'm working in it <b>right now</b>. But everything else seems to be *basically working*. So that's a start.
+Already Worked Out
+------------------ 
 
-Also, why isn't SublimeText highlighting my markup?
-
-*One hour later* : Can't fix the auto-regeneration problem. Oh well, not essential. Everything else seems to bascially work.
-
-It seems like lots of the resources for Ruby/Jekyll (including the people on StackOverflow in general) are purposely obscure. It's how nerds take the power back I suppose. I'm going to try to avoid that here.
+- Installing a linter and hinter for Javascript in SublimeText (install packages like ruby: preferences > packages)
+- Customizing darcli Jekyll template (Realistically I could remove more assets, probably, and will try)
+- Hit f6 to spell-check.
 
 

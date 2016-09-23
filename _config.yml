@@ -25,6 +25,8 @@ github_username:  glenwperry
 
 
 # Build settings
+gems: jekyll-github-metadata
+repository: "glenwperry/glenwperry.github.io"
 markdown: kramdown
 highlighter: rouge
 theme: minima
