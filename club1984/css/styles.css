@@ -1,0 +1,187 @@
+html, body, section, footer {
+    margin: auto;
+    overflow: auto;
+}
+
+section {
+    padding: 0%;
+}
+
+h1 {
+    font-family: "Roboto Condensed", Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h1, p, footer {
+    z-index: 2
+}
+
+body {
+    font: 1.5em "Raleway", Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+#slide1 {
+    text-align: center;
+    background-image: url("../img/heathers.jpg");
+    background-size: cover;
+    background-position: 100% 20%;
+    padding-bottom: 10%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#club {
+    font-size: 12em;
+    color: rgba(108, 246, 44, .60);
+    margin: auto;
+}
+
+/*
+body:before {
+    content: 'CLUB 1984';
+    display: block;
+    font-size: 15em;
+    transition: all 0.25 ease;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    color: rgba(108, 246, 44, .60);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif; }
+    */
+
+#intro {
+    display: inline-block;
+}
+
+#intro > h1 {
+    background: black;
+    color: white;
+    position: relative;
+}
+
+#slide2 {
+    padding: 5%;
+    padding-bottom: 10%;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f62cd1), color-stop(100%, #2CD1F6));
+    background: -webkit-linear-gradient(top, #f62cd1 0%, #2CD1F6 100%);
+    background: linear-gradient(to bottom, #f62cd1 0%, #2CD1F6 100%);
+    position: relative;
+}
+
+#table {
+  margin: auto;
+  width: 75%;
+}
+
+
+#td1 {
+border: 1px solid white;
+vertical-align: center;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+#td2 {
+  border: 1px solid white;
+  border-top: none;
+  border-right: none;
+  vertical-align: top;
+
+}
+
+#td3 {
+  vertical-align: center;
+
+}
+
+#td4 {
+  border-left: 1px solid white;
+}
+
+.info {
+  padding: 5%;
+}
+
+.info h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#one {
+  color: black;
+  padding-bottom: 15%;
+}
+
+#two {
+  color: white;
+  padding-bottom: 15%;
+}
+
+#three {
+  padding-top: 15%;
+  color: white;
+  padding-bottom: 15%;
+}
+
+
+#four {
+  padding-top: 15%;
+  color: black;
+  padding-bottom: 15%;
+}
+
+#five {
+padding-top: 10%;
+display: inline-block;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#five > h1 {
+  font-weight: 200;
+  font-size: 2em;
+}
+
+#slide3 {
+    text-align: center;
+    background-image: url("../img/license.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#outro {
+    display: inline-block;
+}
+
+#outro > p {
+  font-size: 1.5em;
+    background: black;        
+    color: white;
+    position: relative;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  position: relative;
+}
+
+#number {
+  padding-left:25%;
+}
+
+#email {
+  padding-left: 25%;
+}
