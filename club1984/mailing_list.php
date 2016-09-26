@@ -11,7 +11,7 @@ echo "Thank you $email for joining the mailing list";
 if (!$save = fopen("members.txt","a")) {
 exit;
 }
-fwrite($save,"$_POST["email"]\r\n");
+fwrite($save,"$email]\r\n");
 fclose($save);
 if (!$save = fopen("members.txt","a")) {
 exit;
