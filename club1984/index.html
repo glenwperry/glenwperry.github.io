@@ -66,8 +66,7 @@
  			<div class="info" id="five">
       	   		<h1>21+ Up</h1>
       	  	    <h1>Doors 7pm - 2am</h1>
-      	  	    <h1>Th, Fri, Sat</h1>
-      	  	    <hr size="1px" color="white" align="center" width="85%">
+      	  	    <h1 id="days">Th, Fri, Sat</h1>
       	  	    <h1>@New Wave Bar</h1>
 				<h1>17847 Lakewood Blvd.</h1>
 				<h1>Bellflower, CA</h1>
@@ -78,10 +77,26 @@
 
     <section id="slide3">
     	<div id="outro">
-    	<p>Join our <a href="www.yahoo.com">mailing list</a> for free passes!</p>
+<!--mailing list modal-->
+    	<p>Join our <a href="#openModal">mailing list</a> for free passes!</p>
+    	<div id="openModal" class="modalDialog">
+    		<div>
+				<a href="#close" title="Close" class="close">X</a>
+				<form action="mailing_list.asp" method="post">
+				Email: <input type="text" name="email" value=""><br>
+				<input type="submit" value="Submit">
+				</form>
+
+				<!--<p>Click the "Submit" button and the form-data will be sent to a page on the server called "demo_form.asp".</p>-->
+
+			</div>
+    	</div>
+<!--end modal-->
+
     	<p>Check out <a href="http://www.newwaverestaurant.com/">New Wave Bar and Restaurant</a></p>
     	</div>
     </section>
+
 
 <footer>
 <p><span id="number">(562) 790-8274</span> <span id="email">email@club1984.com</span></p>
