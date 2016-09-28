@@ -77,16 +77,13 @@
 
     <section id="slide3">
     	<div id="outro">
-<!--mailing list modal-->
+<!--mailing list modal doesn't actually do anything on submit. consider using google forms to collect info in spreadsheet-->
     	<p>Join our <a href="#openModal">mailing list</a> for free passes!</p>
     	<div id="openModal" class="modalDialog">
     		<div>
 				<a href="#close" title="Close" class="close">X</a>
-				<form onsubmit="location.assign('#close')">
-				<form action="mailing_list.php" method="POST">
 				Email: <input type="text" name="email"><br>
-				<input type="submit" value="Submit">
-	
+				<a href="#close"><input type="submit" value="Submit"></a>
 				</form>
 			</div>
     	</div>
