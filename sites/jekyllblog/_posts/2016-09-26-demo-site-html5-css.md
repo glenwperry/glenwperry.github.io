@@ -24,3 +24,4 @@ What I Still Need To Do
 
 - Add thumbnail and popout modal for wireframes/prototype here
 - Make input to .asp work
+- SEO

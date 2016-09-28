@@ -82,13 +82,12 @@
     	<div id="openModal" class="modalDialog">
     		<div>
 				<a href="#close" title="Close" class="close">X</a>
+				<form onsubmit="location.assign('#close')">
 				<form action="mailing_list.php" method="POST">
 				Email: <input type="text" name="email"><br>
 				<input type="submit" value="Submit">
+	
 				</form>
-
-				<!--<p>Click the "Submit" button and the form-data will be sent to a page on the server called "demo_form.asp".</p>-->
-
 			</div>
     	</div>
 <!--end modal-->
