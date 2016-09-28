@@ -18,7 +18,7 @@ keywords: "web development, javascript, css, html, design, adobe"
 email: glenwperry@gmail.com
 description: I'll be exploring topics in coding and design and writing about the learning process.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://glenwperry.github.io" # the base hostname & protocol for your site
+url: "http://glenwperry.github.io/sites/jekyllblog" # the base hostname & protocol for your site
 repository: "glenwperry/glenwperry.github.io"
 twitter_username: glenpe
 github_username:  glenwperry
