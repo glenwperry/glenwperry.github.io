@@ -1,0 +1,60 @@
+.highlight {
+	background-color: #D3EAF2;
+}
+
+.region-select {
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+.title {
+	height:75px;
+}
+
+.details {
+	list-style: none;
+	padding-top: 8%;
+	padding-right: 10%;
+	position: relative;
+}
+
+.slideout {
+
+}
+
+button {
+	margin-bottom: 5%;
+}
+
+.topper {
+	position:relative;
+}
+
+.info {
+	position:relative;
+}
+
+.description {
+	height: 75px;
+}
+
+.nightsnum {
+	display: inline-block;
+	right:0px;
+	position: relative;
+	padding-bottom:3%;
+	vertical-align: top;
+}
+
+.total {
+	display: inline-block;
+	right:0px;
+	position: relative;
+	left:15%;
+	text-align: center;
+}
+
+.cashtotal {
+	font-size:3em;
+}

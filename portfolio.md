@@ -12,3 +12,5 @@ title: Portfolio
 [Temple of Baphomet Logo - Negative/Positive in Illustrator](/baphomet/baphomet.png)
 
 [Augmented Reality Demo Video - Unity3d and Vuforia](https://youtu.be/K3tCvHRkdcg)
+
+[California Backpacking Tours - Experimenting w/ JQuery - In Progress](/unplugged/index.html)
