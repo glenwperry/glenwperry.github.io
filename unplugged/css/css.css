@@ -13,14 +13,19 @@
 }
 
 .details {
-	list-style: none;
-	padding-top: 8%;
-	padding-right: 10%;
-	position: relative;
 }
 
-.slideout {
+.photos {
+	padding-top: 8%;
+	padding-right: 10%;
+}
 
+ul {
+	list-style: none;
+}
+
+li {
+	padding: 3%;
 }
 
 button {
@@ -49,9 +54,8 @@ button {
 
 .total {
 	display: inline-block;
-	right:0px;
-	position: relative;
-	left:15%;
+	position:relative;
+	left:5%;
 	text-align: center;
 }
 

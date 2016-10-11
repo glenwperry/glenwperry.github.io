@@ -12,82 +12,43 @@
 </head>
 <body>
 	<div class="container">
-	
-			<!--top header and sorting-->
-			<div class="topper">
-				<h1>Guided Trips</h1>
-				<div class="btn-group region-select" role="group" aria-label="Select Region">
-					<button type="button" class="btn btn-default">High Sierra</button>
-					<button type="button" class="btn btn-default">Southern California</button>
-					<button type="button" class="btn btn-default">Central Coast</button>
-				</div>
+
+		<!--top header and sorting-->
+		<div class="topper">
+			<h1>Guided Trips</h1>
+			<div class="btn-group region-select" role="group" aria-label="Select Region">
+				<button type="button" class="btn btn-default" id="high-sierra">High Sierra</button>
+				<button type="button" class="btn btn-default" id="socal">Southern California</button>
+				<button type="button" class="btn btn-default" id="coast">Central Coast</button>
+				<button type="button" class="btn btn-success" id="all">All Trips</button>
 			</div>
+		</div>
 
 
-			<!--row 1-->
-			<div class="row">
+		<!--row 1-->
+		<div class="row">
 			<div class="col-md-4 high-sierra tour panel panel-default" data-daily-price="166.66">
 				<h2 class="title">Thousand Island Lake, Mammoth</h2>
 				<div class="info">
-				<div class="description">This trail provides access to the north rim of Yosemite Valley
+					<div class="description">This trail provides access to the north rim of Yosemite Valley
 						with pleasant hiking through mixed conifer forest. </div>	
-		
 						<div class="nightsnum">
-						<p>
-							<label for="nights">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights">
-						</p>
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
 						</div>
 						<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span id="nights-count">4</span> Nights</p>
+						<p><span class="cashtotal">500</span><br> for <span class="nights-count">3</span> Nights</p>
 						</div>
-						</div>
-				
+					</div>
+
 					<button class="book btn-default">Book Now</button>
 					<button class="photobtn btn-default see-details">See details</button>   
-					<ul class="details">
-						<li>
-							<img src="img/yosemite.jpg" class="img-responsive">
-							<span>Mount Conness</span>
-						</li>
-						<li>
-							<img src="img/yosemite.jpg" class="img-responsive">
-							<span>Mount Conness</span>
-						</li>
-						<li>
-							<img src="img/yosemite.jpg" class="img-responsive">
-							<span>Mount Conness</span>
-						</li>
-					</ul>
-				</div>
-
-
-				<div class="col-md-4 high-sierra tour panel panel-default" data-discount="99" data-daily-price="133.33">
-					<h2 class="title">Young Lakes, Yosemite</h2>
-					<div class="info">
-						<div class="description">This trail winds through old burn areas and mixed conifer
-							forest and can sometimes be difficult to follow because it sees
-							very little traffic.</div>	
-		
-						<div class="nightsnum">
-						<p>
-							<label for="nights">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights">
-						</p>
-						</div>
-						<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span id="nights-count">4</span> Nights</p>
-						</div>
-						</div>
-				
-						<button class="book btn-default">Book Now</button>
-						<button class="photobtn btn-default see-details">See details</button>   
-
-						<ul class="details" style="display:block;">
+					<div class="photos">
+						<ul>
 							<li>
 								<img src="img/yosemite.jpg" class="img-responsive">
 								<span>Mount Conness</span>
@@ -101,6 +62,48 @@
 								<span>Mount Conness</span>
 							</li>
 						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-md-4 coast tour panel panel-default" data-discount="99" data-daily-price="133.33">
+					<h2 class="title">Young Lakes, Yosemite</h2>
+					<div class="info">
+						<div class="description">This trail winds through old burn areas and mixed conifer
+							forest and can sometimes be difficult to follow because it sees
+							very little traffic.</div>	
+
+							<div class="nightsnum">
+								<p>
+									<label for="nights" class="control-label">Number of Nights</label>
+								</p>
+								<p>
+									<input type="number" value="3" class="nights form-control">
+								</p>
+							</div>
+							<div class="total">
+							<p><span class="cashtotal">400</span><br> for <span class="nights-count">3</span> Nights</p>
+							</div>
+						</div>
+
+						<button class="book btn-default">Book Now</button>
+						<button class="photobtn btn-default see-details">See details</button>   
+						<div class="photos">
+							<ul>
+								<li>
+									<img src="img/yosemite.jpg" class="img-responsive">
+									<span>Mount Conness</span>
+								</li>
+								<li>
+									<img src="img/yosemite.jpg" class="img-responsive">
+									<span>Mount Conness</span>
+								</li>
+								<li>
+									<img src="img/yosemite.jpg" class="img-responsive">
+									<span>Mount Conness</span>
+								</li>
+							</ul>
+						</div>
 					</div>
 
 
@@ -109,159 +112,41 @@
 						<div class="info">
 							<div class="description">A pleasant trail through red fir forest with access to different
 								lake basins and the Yosemite Creek watershed.</div>	
-		
-						<div class="nightsnum">
-						<p>
-							<label for="nights">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights">
-						</p>
-						</div>
-						<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span id="nights-count">4</span> Nights</p>
-						</div>
-						</div>
-				
+
+								<div class="nightsnum">
+									<p>
+										<label for="nights" class="control-label">Number of Nights</label>
+									</p>
+									<p>
+										<input type="number" value="3" class="nights form-control">
+									</p>
+								</div>
+								<div class="total">
+								<p><span class="cashtotal">300</span><br> for <span class="nights-count">3</span> Nights</p>
+								</div>
+							</div>
+
 							<button class="book btn-default">Book Now</button>
 							<button class="photobtn btn-default see-details">See details</button>   
-							<ul class="details">
-								<li>
-									<img src="img/yosemite.jpg" class="img-responsive">
-									<span>Mount Conness</span>
-								</li>
-								<li>
-									<img src="img/yosemite.jpg" class="img-responsive">
-									<span>Mount Conness</span>
-								</li>
-								<li>
-									<img src="img/yosemite.jpg" class="img-responsive">
-									<span>Mount Conness</span>
-								</li>
-							</ul>
+							<div class="photos">
+								<ul>
+									<li>
+										<img src="img/yosemite.jpg" class="img-responsive">
+										<span>Mount Conness</span>
+									</li>
+									<li>
+										<img src="img/yosemite.jpg" class="img-responsive">
+										<span>Mount Conness</span>
+									</li>
+									<li>
+										<img src="img/yosemite.jpg" class="img-responsive">
+										<span>Mount Conness</span>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<!--end row 1-->
-
-
-<!--row 2-->
-		<div class="row">
-			<div class="col-md-4 high-sierra tour panel panel-default" data-daily-price="166.66">
-				<h2 class="title">Alta Peak, Sequoia</h2>
-				<div class="info">
-				<div class="description">The best views on the western side of Sequoia National Park.</div>	
-		
-						<div class="nightsnum">
-						<p>
-							<label for="nights">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights">
-						</p>
-						</div>
-						<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span id="nights-count">4</span> Nights</p>
-						</div>
-						</div>
-				
-					<button class="book btn-default">Book Now</button>
-					<button class="photobtn btn-default see-details">See details</button>   
-					<ul class="details">
-						<li>
-							<img src="img/yosemite.jpg" class="img-responsive">
-							<span>Mount Conness</span>
-						</li>
-						<li>
-							<img src="img/yosemite.jpg" class="img-responsive">
-							<span>Mount Conness</span>
-						</li>
-						<li>
-							<img src="img/yosemite.jpg" class="img-responsive">
-							<span>Mount Conness</span>
-						</li>
-					</ul>
-				    </div>
-	
-
-
-				<div class="col-md-4 central-coast tour panel panel-default" data-discount="99" data-daily-price="133.33">
-					<h2 class="title">Skyline-to-the-Sea, Santa Cruz Mountains</h2>
-					<div class="info">
-						<div class="description">This trail winds through old burn areas and mixed conifer
-							forest and can sometimes be difficult to follow because it sees
-							very little traffic.</div>	
-		
-						<div class="nightsnum">
-						<p>
-							<label for="nights">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights">
-						</p>
-						</div>
-						<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span id="nights-count">4</span> Nights</p>
-						</div>
-						</div>
-				
-						<button class="book btn-default">Book Now</button>
-						<button class="photobtn btn-default see-details">See details</button>   
-
-						<ul class="details" style="display:block;">
-							<li>
-								<img src="img/yosemite.jpg" class="img-responsive">
-								<span>Mount Conness</span>
-							</li>
-							<li>
-								<img src="img/yosemite.jpg" class="img-responsive">
-								<span>Mount Conness</span>
-							</li>
-							<li>
-								<img src="img/yosemite.jpg" class="img-responsive">
-								<span>Mount Conness</span>
-							</li>
-						</ul>
-					</div>
-
-
-					<div class="col-md-4 socal tour panel panel-default" data-discount="99" data-daily-price="100">
-						<h2 class="title">Spruce Grove, Angeles National Forest</h2>
-						<div class="info">
-							<div class="description">A pleasant trail through red fir forest with access to different
-								lake basins and the Yosemite Creek watershed.</div>	
-		
-						<div class="nightsnum">
-						<p>
-							<label for="nights">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights">
-						</p>
-						</div>
-						<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span id="nights-count">4</span> Nights</p>
-						</div>
-						</div>
-				
-							<button class="book btn-default">Book Now</button>
-							<button class="photobtn btn-default see-details">See details</button>   
-							<ul class="details">
-								<li>
-									<img src="img/yosemite.jpg" class="img-responsive">
-									<span>Mount Conness</span>
-								</li>
-								<li>
-									<img src="img/yosemite.jpg" class="img-responsive">
-									<span>Mount Conness</span>
-								</li>
-								<li>
-									<img src="img/yosemite.jpg" class="img-responsive">
-									<span>Mount Conness</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!--end row 2-->
 
 
 				</div>
