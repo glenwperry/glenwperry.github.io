@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Site With HTML5 and CSS3
+title: Static HTML5 and CSS3 From Scratch
 date: 2016-09-26
 categories: "web design, html5, css3, modal, mailing list"
 tags: "web design, html5, css3, modal, mailing list"
@@ -12,11 +12,9 @@ Here's a <http://glenwperry.github.io/club1984/index.html> demo website for a 80
 
 What I Learned
 -----------------
-
-- This was my first time creating a .css from scratch.
-- Pop up modal (still trying to get it to send form info to .asp)
-- Color gradients (still figuring out what the 3 different selectors mean)
-- Big challenge in alignment. Seems stupidly difficult to align stuff with html5 (compared to back in the day) - margins, top, left, inline-block, etc.
+- Pop up modal (still trying to get it to send form info to .asp) (**not possible with Github sites)
+- Color gradients (review the three separate browser specifications)
+- Big challenge in alignment. Seems stupidly difficult to align stuff with html5 - margins, top, left, inline-block, etc.
 - Did a full protoype with Illustrator, which was just as tricky as making the actual site. Things changed in the coding process.
 
 What I Still Need To Do

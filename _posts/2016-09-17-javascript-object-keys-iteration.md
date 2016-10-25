@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Coherent Explanation of the Different Ways to Iterate Through Object Properties/Values
+title: Different Ways to Iterate Through Object Properties/Values
 date: 2016-09-17
 categories: "javascript"
 tags: "javascript"
