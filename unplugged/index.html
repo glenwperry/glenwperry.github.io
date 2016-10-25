@@ -1,296 +1,335 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 	crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/css.css">
-</head>
-<body>
-	<div class="container">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 	crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/css.css">
+	</head>
+	<body>
+		<div class="container">
 
-		<!--top header and sorting-->
-		<div class="topper row">
-			<h1>Guided Trips</h1>
-			<div class="btn-group region-select" role="group" aria-label="Select Region">
-				<button type="button" class="btn btn-default" id="high-sierra">High Sierra</button>
-				<button type="button" class="btn btn-default" id="socal">Southern California</button>
-				<button type="button" class="btn btn-default" id="coast">Central Coast</button>
-				<button type="button" class="btn btn-success" id="all">All Trips</button>
-			</div>
-		</div>
-
-
-		<!--row 1-->
-		<div class="row">
-			<div class="col-md-4 high-sierra tour panel panel-default" data-daily-price="166.66">
-				<h2 class="title">Thousand Island Lake, Mammoth</h2>
-				<div class="info">
-					<div class="description">Pristine alpine lakes, rock formations, waterfalls, and plenty of space to stretch out.</div>	
-					<div class="nightsnum">
-						<p>
-							<label for="nights" class="control-label">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights form-control">
-						</p>
-					</div>
-					<div class="total">
-						<p><span class="cashtotal">500</span><br> for <span class="nights-count">3</span> Nights</p>
-					</div>
-				</div>
-
-				<button class="book btn-default">Book Now</button>
-				<button class="photobtn btn-default see-details">See details</button>   
-				<div class="photos">
-					<ul>
-						<li>
-							<img src="img/mammoth1.jpg" class="img-responsive">
-							<span style="display:inline">Thousand Island Lakes</span>
-						</li>
-						<li>
-							<img src="img/mammoth2.jpg" class="img-responsive">
-							<span>Rainbow Falls</span>
-						</li>
-						<li>
-							<img src="img/mammoth3.jpg" class="img-responsive">
-							<span>Glacial Valley</span>
-						</li>
-						<li>
-							<a class="expand">Get Full Trip Report</a>
-						</li>
-					</ul>
+			<!--top header and sorting-->
+			<div class="topper row">
+				<h1>Guided Trips</h1>
+				<div class="btn-group region-select" role="group" aria-label="Select Region">
+					<button type="button" class="btn btn-default" id="high-sierra">High Sierra</button>
+					<button type="button" class="btn btn-default" id="socal">Southern California</button>
+					<button type="button" class="btn btn-default" id="coast">Central Coast</button>
+					<button type="button" class="btn btn-success" id="all">All Trips</button>
 				</div>
 			</div>
 
 
-			<div class="col-md-4 high-sierra tour panel panel-default" data-discount="99" data-daily-price="133.33">
-				<h2 class="title">Clouds Rest, Yosemite</h2>
-				<div class="info">
-					<div class="description">With sky-high views that dwarf Half Dome, this trail is not for the faint of heart.</div>	
-
-					<div class="nightsnum">
-						<p>
-							<label for="nights" class="control-label">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights form-control">
-						</p>
+			<!--row 1-->
+			<div class="row">
+				<div class="col-md-4 high-sierra tour panel panel-default" data-daily-price="166.66">
+					<h2 class="title">Thousand Island Lake, Mammoth</h2>
+					<div class="info">
+						<div class="description">Pristine alpine lakes, rock formations, waterfalls, and plenty of space to stretch out.</div>	
+						<div class="nightsnum">
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
+						</div>
+						<div class="total">
+							<p><span class="cashtotal">500</span><br> for <span class="nights-count">3</span> Nights</p>
+						</div>
 					</div>
-					<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span class="nights-count">3</span> Nights</p>
+
+					<button class="book btn-default">Book Now</button>
+					<button class="photobtn btn-default see-details">See details</button>   
+					<div class="photos">
+						<ul>
+							<li>
+								<img src="img/mammoth1.jpg" class="img-responsive">
+								<span style="display:inline">Thousand Island Lakes</span>
+							</li>
+							<li>
+								<img src="img/mammoth2.jpg" class="img-responsive">
+								<span>Rainbow Falls</span>
+							</li>
+							<li>
+								<img src="img/mammoth3.jpg" class="img-responsive">
+								<span>Glacial Valley</span>
+							</li>
+							<li>
+								<a class="expand">Get Full Trip Report</a>
+							</li>
+						</ul>
 					</div>
-				</div>
-
-				<button class="book btn-default">Book Now</button>
-				<button class="photobtn btn-default see-details">See details</button>   
-				<div class="photos">
-					<ul>
-						<li>
-							<img src="img/cloudsrest1.jpg" class="img-responsive">
-							<span>Clouds Rest</span>
-						</li>
-						<li>
-							<img src="img/cloudsrest2.jpg" class="img-responsive">
-							<span>Half Dome</span>
-						</li>
-						<li>
-							<img src="img/cloudsrest3.jpg" class="img-responsive">
-							<span>Tenaya Lake</span>
-						</li>
-						<li>
-							<a class = "expand">Get Full Trip Report</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-
-			<div class="col-md-4 socal tour panel panel-default" data-discount="99" data-daily-price="100">
-				<h2 class="title">Idlehour, Angeles National Forest</h2>
-				<div class="info">
-					<div class="description">Tucked away in the foothills above Altadena, this is an easy escape from L.A.</div>	
-
-					<div class="nightsnum">
-						<p>
-							<label for="nights" class="control-label">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights form-control">
-						</p>
-					</div>
-					<div class="total">
-						<p><span class="cashtotal">300</span><br> for <span class="nights-count">3</span> Nights</p>
-					</div>
-				</div>
-
-				<button class="book btn-default">Book Now</button>
-				<button class="photobtn btn-default see-details">See details</button>   
-				<div class="photos">
-					<ul>
-						<li>
-							<img src="img/idlehour1.jpg" class="img-responsive">
-							<span>Sheep Mountain</span>
-						</li>
-						<li>
-							<img src="img/idlehour2.jpg" class="img-responsive">
-							<span>West Fork River</span>
-						</li>
-						<li>
-							<img src="img/idlehour3.jpg" class="img-responsive">
-							<span>McGrath Camp Ruins</span>
-						</li>
-						<li>
-							<a class = "expand">Get Full Trip Report</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-
-<!--Row Two-->
-			<div class="col-md-4 coast tour panel panel-default" data-daily-price="166.66">
-				<h2 class="title">Big Rock Hole, Santa Cruz</h2>
-				<div class="info">
-					<div class="description">Pristine alpine lakes, rock formations, waterfalls, and plenty of space to stretch out.</div>	
-					<div class="nightsnum">
-						<p>
-							<label for="nights" class="control-label">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights form-control">
-						</p>
-					</div>
-					<div class="total">
-						<p><span class="cashtotal">500</span><br> for <span class="nights-count">3</span> Nights</p>
-					</div>
-				</div>
-
-				<button class="book btn-default">Book Now</button>
-				<button class="photobtn btn-default see-details">See details</button>   
-				<div class="photos">
-					<ul>
-						<li>
-							<img src="img/mammoth1.jpg" class="img-responsive">
-							<span>Thousand Island Lakes</span>
-						</li>
-						<li>
-							<img src="img/mammoth2.jpg" class="img-responsive">
-							<span>Rainbow Falls</span>
-						</li>
-						<li>
-							<img src="img/mammoth3.jpg" class="img-responsive">
-							<span>Glacial Valley</span>
-						</li>
-						<li>
-							<a class="expand">Get Full Trip Report</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<div id="row2">
-			<div class="col-md-4 coast tour panel panel-default" data-discount="99" data-daily-price="133.33">
-				<h2 class="title">Pfieffer Trail, Big Sur</h2>
-				<div class="info">
-					<div class="description">With sky-high views that dwarf Half Dome, this trail is not for the faint of heart.</div>	
-
-					<div class="nightsnum">
-						<p>
-							<label for="nights" class="control-label">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights form-control">
-						</p>
-					</div>
-					<div class="total">
-						<p><span class="cashtotal">400</span><br> for <span class="nights-count">3</span> Nights</p>
-					</div>
-				</div>
-
-				<button class="book btn-default">Book Now</button>
-				<button class="photobtn btn-default see-details">See details</button>   
-				<div class="photos">
-					<ul>
-						<li>
-							<img src="img/cloudsrest1.jpg" class="img-responsive">
-							<span>Clouds Rest</span>
-						</li>
-						<li>
-							<img src="img/cloudsrest2.jpg" class="img-responsive">
-							<span>Half Dome</span>
-						</li>
-						<li>
-							<img src="img/cloudsrest3.jpg" class="img-responsive">
-							<span>Tenaya Lake</span>
-						</li>
-						<li>
-							<a class = "expand">Get Full Trip Report</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-
-			<div class="col-md-4 coast tour panel panel-default" data-discount="99" data-daily-price="100">
-				<h2 class="title">Wilder Ranch, Santa Cruz</h2>
-				<div class="info">
-					<div class="description">Tucked away in the foothills above Altadena, this is an easy escape from L.A.</div>	
-
-					<div class="nightsnum">
-						<p>
-							<label for="nights" class="control-label">Number of Nights</label>
-						</p>
-						<p>
-							<input type="number" value="3" class="nights form-control">
-						</p>
-					</div>
-					<div class="total">
-						<p><span class="cashtotal">300</span><br> for <span class="nights-count">3</span> Nights</p>
-					</div>
-				</div>
-
-				<button class="book btn-default">Book Now</button>
-				<button class="photobtn btn-default see-details">See details</button>   
-				<div class="photos">
-					<ul>
-						<li>
-							<img src="img/idlehour1.jpg" class="img-responsive">
-							<span>Sheep Mountain</span>
-						</li>
-						<li>
-							<img src="img/idlehour2.jpg" class="img-responsive">
-							<span>West Fork River</span>
-						</li>
-						<li>
-							<img src="img/idlehour3.jpg" class="img-responsive">
-							<span>McGrath Camp Ruins</span>
-						</li>
-						<li>
-							<a class = "expand">Get Full Trip Report</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<!--end row 2-->
-
-
-
-
-
-
-
-
+								<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <h1>Thousand Island Lakes, Mammoth</h1>
+	      <p>Just got back from an overnight to the hike-in sites at Point Mugu. There are a handful of first-come-first-serve sites that seem to get almost no use these days. The whole area is still pretty charred looking from the fires back in May 2013 + drought conditions so if you're going to do it, don't expect lush greenery or much shade.</p>
+<p>
+Starting from Ray Miller Trailhead just north of the drive-in Big Sycamore campsites on PCH. Overnight passes are $10 from the iron ranger at the trail head. La Jolla Canyon Trail (shorter route) is closed due to storm damage so you'll have to take Backbone Trail which is a series of switchbacks climbing high above the beach and offering some great views. After 2.7 miles you'll veer left onto Overlook trail. To the NE you'll get great views of the Santa Monica Mountains and to the SW you'll have PCH and the Pacific. </p>
+<p>After 2 miles you'll make another left for a quick jaunt of 0.2 miles to the camping area. The information bulletin is in disrepair, as are the sites themselves (lots of dry overgrowth) however a Boy Scout troop has put in new tables and food lockers and there are a few clear sites where you can comfortably camp for the night. I didn't see any water, but there is a dry creek bed running along the campsites. You can't complete the loop (due to La Jolla trail closure) so you'll have to climb back up and out the way you came. Thornhill Broome is just across PCH and does the trick for a quick post-camp swim.</p>
+	    </div>
+	  </div>
 	</div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="scripts/javascript.js"></script>
-</body>
-</html>
+				</div>
+
+
+
+
+
+				<div class="col-md-4 high-sierra tour panel panel-default" data-discount="99" data-daily-price="133.33">
+					<h2 class="title">Clouds Rest, Yosemite</h2>
+					<div class="info">
+						<div class="description">With sky-high views that dwarf Half Dome, this trail is not for the faint of heart.</div>	
+
+						<div class="nightsnum">
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
+						</div>
+						<div class="total">
+							<p><span class="cashtotal">400</span><br> for <span class="nights-count">3</span> Nights</p>
+						</div>
+					</div>
+
+					<button class="book btn-default">Book Now</button>
+					<button class="photobtn btn-default see-details">See details</button>   
+					<div class="photos">
+						<ul>
+							<li>
+								<img src="img/cloudsrest1.jpg" class="img-responsive">
+								<span>Clouds Rest</span>
+							</li>
+							<li>
+								<img src="img/cloudsrest2.jpg" class="img-responsive">
+								<span>Half Dome</span>
+							</li>
+							<li>
+								<img src="img/cloudsrest3.jpg" class="img-responsive">
+								<span>Tenaya Lake</span>
+							</li>
+							<li>
+								<a class = "expand">Get Full Trip Report</a>
+							</li>
+						</ul>
+					</div>
+								<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <h1>Clouds Rest, Yosemite</h1>
+	      <p>Just got back from an overnight to the hike-in sites at Point Mugu. There are a handful of first-come-first-serve sites that seem to get almost no use these days. The whole area is still pretty charred looking from the fires back in May 2013 + drought conditions so if you're going to do it, don't expect lush greenery or much shade.</p>
+<p>
+Starting from Ray Miller Trailhead just north of the drive-in Big Sycamore campsites on PCH. Overnight passes are $10 from the iron ranger at the trail head. La Jolla Canyon Trail (shorter route) is closed due to storm damage so you'll have to take Backbone Trail which is a series of switchbacks climbing high above the beach and offering some great views. After 2.7 miles you'll veer left onto Overlook trail. To the NE you'll get great views of the Santa Monica Mountains and to the SW you'll have PCH and the Pacific. </p>
+<p>After 2 miles you'll make another left for a quick jaunt of 0.2 miles to the camping area. The information bulletin is in disrepair, as are the sites themselves (lots of dry overgrowth) however a Boy Scout troop has put in new tables and food lockers and there are a few clear sites where you can comfortably camp for the night. I didn't see any water, but there is a dry creek bed running along the campsites. You can't complete the loop (due to La Jolla trail closure) so you'll have to climb back up and out the way you came. Thornhill Broome is just across PCH and does the trick for a quick post-camp swim.</p>
+	    </div>
+	  </div>
+	</div>
+				</div>
+
+
+
+
+				<div class="col-md-4 socal tour panel panel-default" data-discount="99" data-daily-price="100">
+					<h2 class="title">Idlehour, Angeles National Forest</h2>
+					<div class="info">
+						<div class="description">Tucked away in the foothills above Altadena, this is an easy escape from L.A.</div>	
+
+						<div class="nightsnum">
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
+						</div>
+						<div class="total">
+							<p><span class="cashtotal">300</span><br> for <span class="nights-count">3</span> Nights</p>
+						</div>
+					</div>
+
+					<button class="book btn-default">Book Now</button>
+					<button class="photobtn btn-default see-details">See details</button>   
+					<div class="photos">
+						<ul>
+							<li>
+								<img src="img/idlehour1.jpg" class="img-responsive">
+								<span>Sheep Mountain</span>
+							</li>
+							<li>
+								<img src="img/idlehour2.jpg" class="img-responsive">
+								<span>West Fork River</span>
+							</li>
+							<li>
+								<img src="img/idlehour3.jpg" class="img-responsive">
+								<span>McGrath Camp Ruins</span>
+							</li>
+							<li>
+								<a class = "expand">Get Full Trip Report</a>
+							</li>
+						</ul>
+					</div>
+								<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <h1>Idlehour, Angeles National Forest</h1>
+	      <p>Just got back from an overnight to the hike-in sites at Point Mugu. There are a handful of first-come-first-serve sites that seem to get almost no use these days. The whole area is still pretty charred looking from the fires back in May 2013 + drought conditions so if you're going to do it, don't expect lush greenery or much shade.</p>
+<p>
+Starting from Ray Miller Trailhead just north of the drive-in Big Sycamore campsites on PCH. Overnight passes are $10 from the iron ranger at the trail head. La Jolla Canyon Trail (shorter route) is closed due to storm damage so you'll have to take Backbone Trail which is a series of switchbacks climbing high above the beach and offering some great views. After 2.7 miles you'll veer left onto Overlook trail. To the NE you'll get great views of the Santa Monica Mountains and to the SW you'll have PCH and the Pacific. </p>
+<p>After 2 miles you'll make another left for a quick jaunt of 0.2 miles to the camping area. The information bulletin is in disrepair, as are the sites themselves (lots of dry overgrowth) however a Boy Scout troop has put in new tables and food lockers and there are a few clear sites where you can comfortably camp for the night. I didn't see any water, but there is a dry creek bed running along the campsites. You can't complete the loop (due to La Jolla trail closure) so you'll have to climb back up and out the way you came. Thornhill Broome is just across PCH and does the trick for a quick post-camp swim.</p>
+	    </div>
+	  </div>
+	</div>
+				</div>
+
+
+	<!--Row Two-->
+				<div class="col-md-4 coast tour panel panel-default" data-daily-price="166.66">
+					<h2 class="title">Big Rock Hole, Santa Cruz</h2>
+					<div class="info">
+						<div class="description">Pristine alpine lakes, rock formations, waterfalls, and plenty of space to stretch out.</div>	
+						<div class="nightsnum">
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
+						</div>
+						<div class="total">
+							<p><span class="cashtotal">500</span><br> for <span class="nights-count">3</span> Nights</p>
+						</div>
+					</div>
+
+					<button class="book btn-default">Book Now</button>
+					<button class="photobtn btn-default see-details">See details</button>   
+					<div class="photos">
+						<ul>
+							<li>
+								<img src="img/mammoth1.jpg" class="img-responsive">
+								<span>Thousand Island Lakes</span>
+							</li>
+							<li>
+								<img src="img/mammoth2.jpg" class="img-responsive">
+								<span>Rainbow Falls</span>
+							</li>
+							<li>
+								<img src="img/mammoth3.jpg" class="img-responsive">
+								<span>Glacial Valley</span>
+							</li>
+							<li>
+								<a class="expand">Get Full Trip Report</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="row2">
+				<div class="col-md-4 coast tour panel panel-default" data-discount="99" data-daily-price="133.33">
+					<h2 class="title">Pfieffer Trail, Big Sur</h2>
+					<div class="info">
+						<div class="description">With sky-high views that dwarf Half Dome, this trail is not for the faint of heart.</div>	
+
+						<div class="nightsnum">
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
+						</div>
+						<div class="total">
+							<p><span class="cashtotal">400</span><br> for <span class="nights-count">3</span> Nights</p>
+						</div>
+					</div>
+
+					<button class="book btn-default">Book Now</button>
+					<button class="photobtn btn-default see-details">See details</button>   
+					<div class="photos">
+						<ul>
+							<li>
+								<img src="img/cloudsrest1.jpg" class="img-responsive">
+								<span>Clouds Rest</span>
+							</li>
+							<li>
+								<img src="img/cloudsrest2.jpg" class="img-responsive">
+								<span>Half Dome</span>
+							</li>
+							<li>
+								<img src="img/cloudsrest3.jpg" class="img-responsive">
+								<span>Tenaya Lake</span>
+							</li>
+							<li>
+								<a class = "expand">Get Full Trip Report</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-md-4 coast tour panel panel-default" data-discount="99" data-daily-price="100">
+					<h2 class="title">Wilder Ranch, Santa Cruz</h2>
+					<div class="info">
+						<div class="description">Tucked away in the foothills above Altadena, this is an easy escape from L.A.</div>	
+
+						<div class="nightsnum">
+							<p>
+								<label for="nights" class="control-label">Number of Nights</label>
+							</p>
+							<p>
+								<input type="number" value="3" class="nights form-control">
+							</p>
+						</div>
+						<div class="total">
+							<p><span class="cashtotal">300</span><br> for <span class="nights-count">3</span> Nights</p>
+						</div>
+					</div>
+
+					<button class="book btn-default">Book Now</button>
+					<button class="photobtn btn-default see-details">See details</button>   
+					<div class="photos">
+						<ul>
+							<li>
+								<img src="img/idlehour1.jpg" class="img-responsive">
+								<span>Sheep Mountain</span>
+							</li>
+							<li>
+								<img src="img/idlehour2.jpg" class="img-responsive">
+								<span>West Fork River</span>
+							</li>
+							<li>
+								<img src="img/idlehour3.jpg" class="img-responsive">
+								<span>McGrath Camp Ruins</span>
+							</li>
+							<li>
+								<a class = "expand">Get Full Trip Report</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--end row 2-->
+
+	<!--putting modals here but move these into different file later-->
+
+
+
+
+
+
+
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="scripts/javascript.js"></script>
+	</body>
+	</html>

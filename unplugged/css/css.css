@@ -93,3 +93,7 @@ button {
 .cashtotal {
 	font-size:3em;
 }
+
+.modal-content {
+	padding: 2% 5% 5% 5%;
+}

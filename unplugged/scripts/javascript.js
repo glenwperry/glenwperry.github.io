@@ -16,6 +16,7 @@ $(document).ready(function() {
     $(this).closest('.tour').find('.photos').slideToggle();
     $(".photos").not($(this).closest(".tour").find(".photos")).slideUp();
   });
+ 
   //photo caption on mouseover
   // $('.photos').on('mouseenter', 'li', function() {
   //   $(this).find("span").slideToggle();
@@ -71,3 +72,10 @@ $(document).ready(function() {
     });
   //autofill 3 on load
   $('.nights').val(3);
+  //show full trip modal
+
+  $(".expand").on("click",function() {
+  	$(this).closest(".tour").find(".modal").modal();
+  		$(".photos").slideUp();
+  	});
+ 
