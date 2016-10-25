@@ -1,23 +1,54 @@
+html { 
+	margin-left: calc(100vw - 100%);
+}
+
+a, button {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.topper {
+	position:relative;
+	border-bottom: 0.05px solid lightgrey;
+	border-bottom-width: fill;
+}
+
 .highlight {
 	background-color: #D3EAF2;
 }
 
 .region-select {
-	position:absolute;
-	bottom:0;
-	right:0;
+	bottom:0px;
+	right:0px;
+	width: max-content;
+	float: right;
 }
 
 .title {
 	height:75px;
 }
 
-.details {
-}
-
 .photos {
+	display: none;
 	padding-top: 8%;
 	padding-right: 10%;
+	text-align: center;
+}
+
+.expand {
+	color: black;
+	padding: 2%;
+	border: 1px solid #428bca;
+	background-color:white;
+}
+
+.expand:hover {
+	color: white;
+	background-color: purple;
 }
 
 ul {
@@ -32,8 +63,8 @@ button {
 	margin-bottom: 5%;
 }
 
-.topper {
-	position:relative;
+.total {
+	height: min-content;
 }
 
 .info {
@@ -48,7 +79,7 @@ button {
 	display: inline-block;
 	right:0px;
 	position: relative;
-	padding-bottom:3%;
+	padding-bottom:6%;
 	vertical-align: top;
 }
 

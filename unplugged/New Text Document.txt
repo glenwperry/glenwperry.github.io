@@ -1,0 +1,2 @@
+mouseenter make photo description slide up
+http://try.jquery.com/levels/4/challenges/9
