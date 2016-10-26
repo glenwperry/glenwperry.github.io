@@ -15,4 +15,4 @@ title: Portfolio
 
 [California Backpacking Tours - Experimenting w/ JQuery - In Progress](/unplugged/index.html)
 
-[Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter + John Ritter Quotes](https://twitter.com/_ritter_cam)
+[Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter + John Ritter Quotes - In Progress ](https://twitter.com/_ritter_cam)

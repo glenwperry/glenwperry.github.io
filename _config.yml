@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Glen Perry
-keywords: "web development, javascript, css, html, design, adobe"
+keywords: "web development, javascript, css, html, design, adobe, c#, csharp"
 email: glenwperry@gmail.com
 description: I'll be exploring topics in coding and design and writing about the learning process.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,6 +30,3 @@ repository: "glenwperry/glenwperry.github.io"
 markdown: kramdown
 highlighter: rouge
 theme: minima
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
