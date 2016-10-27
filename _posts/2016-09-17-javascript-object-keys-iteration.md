@@ -4,6 +4,7 @@ title: Different Ways to Iterate Through Object Properties/Values
 date: 2016-09-17
 categories: "javascript"
 tags: "javascript"
+published: false
 ---
 
 Javascript objects are confusing me and I don't think I can progress until I really get them down. I'll be using the Animal Fetcher exercise

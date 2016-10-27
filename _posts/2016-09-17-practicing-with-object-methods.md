@@ -4,6 +4,7 @@ title: Practice Creating Objects and Object Methods
 date: 2016-09-17
 categories: "javascript"
 tags: "javascript"
+published: false
 ---
 
 Prompt

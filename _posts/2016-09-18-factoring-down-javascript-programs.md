@@ -4,6 +4,7 @@ title: Factoring Down Javascript Programs
 date: 2016-09-18
 categories: "javascript, factoring"
 tags: "javascript, factoring"
+published: false
 ---
 
 Factor down the following program(?) as much as you can:

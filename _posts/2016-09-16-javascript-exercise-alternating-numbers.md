@@ -4,6 +4,8 @@ title: Javascript Exercise - Alternating Numbers
 date: 2016-09-16
 categories: "javascript, forms, inline javascript"
 tags: "javascript, forms, inline javascript"
+published: false
+published: false
 ---
 
 This is my first attempt at getting a javascript program to operate inline on an html page. So far, it's broken. Not worth trying.

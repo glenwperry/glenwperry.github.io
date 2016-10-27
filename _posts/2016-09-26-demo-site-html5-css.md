@@ -4,6 +4,7 @@ title: Static HTML5 and CSS3 From Scratch
 date: 2016-09-26
 categories: "web design, html5, css3, modal, mailing list"
 tags: "web design, html5, css3, modal, mailing list"
+published: false
 ---
 
 What I Made
