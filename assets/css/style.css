@@ -73,19 +73,18 @@ main header {
     text-align: left;
     width: -moz-min-content;
     color: white;
-    padding-left: 22%;
 }
 
 .walrusDiv {
 	display: inline-block;
+	margin-left: 12%;
 }
 
 .newNav {
 	position:relative;
-	width: 20%;
 	display: inline-block;
-	padding-left: 20%;
 	vertical-align: top;
+	left: 20%;
 }
 
 
