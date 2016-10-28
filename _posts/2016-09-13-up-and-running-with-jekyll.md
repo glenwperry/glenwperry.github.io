@@ -8,7 +8,7 @@ tags: "jekyll, ruby, static sites, local server, markdown, rouge"
 
 Introduction
 ------------
-Here's my first post on my new Jekyll built blog running on Windows. I originally intended to write a detailed post about how I got Jekyll working on Windows 10, but the truth is I barely understand how I did it. It was a lot of fumbling around and typing things I don't understand into the command prompt. I'm working out the following issues, though, and feel that I may be able to better explain the process in the future.
+I originally intended to write a detailed post about how I got Jekyll working on Windows 10. It was a lot of fumbling around and I don't want to think about it right now though. I'm working out the following issues and feel that I may be able to better explain the process in the future.
 
 Still Working Out
 -----------------
@@ -31,7 +31,6 @@ Already Worked Out
 ------------------ 
 
 - Installing a linter and hinter for Javascript in SublimeText (install packages like ruby: preferences > packages)
-- Customizing darcli Jekyll template (Realistically I could remove more assets, probably, and will try)
 - Hit f6 to spell-check.
 
 
