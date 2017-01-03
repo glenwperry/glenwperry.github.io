@@ -13,6 +13,8 @@ title: Portfolio
 
 [Augmented Reality Demo Video - Unity3d and Vuforia](https://youtu.be/K3tCvHRkdcg)
 
-[California Backpacking Tours - Experimenting w/ JQuery - In Progress](/unplugged/index.html)
+[California Backpacking Tours](/unplugged/index.html)
 
-[Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter + John Ritter Quotes - In Progress ](https://twitter.com/_ritter_cam)
+[Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter + John Ritter Quotes](https://twitter.com/_ritter_cam)
+
+[Pulse - ASP.NET Web App with MVC5 - A counter/social media application](https://pulsecounter122920161230081918.azurewebsites.net/)
