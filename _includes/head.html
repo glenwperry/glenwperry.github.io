@@ -4,14 +4,14 @@
 <link rel="icon" type="image/x-icon" href="{{ site.baseurl }} /assets/img/fav.ico">
 <title>
 	{% if page.title %}
-		{{ page.title }} ::
+	{{ page.title }} ::
 	{% endif %}
 	{{ site.title }}
 </title>
 
 <!-- Meta tag looking for mobile devices -->
-<meta name="viewport" content="initial-scale=1.5">
-<meta name="theme-color" content="#232323">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Good information about this page -->
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -23,9 +23,11 @@
 <link rel="alternate" type="application/atom+xml" title="{{ site.name }}'s Atom Feed" href="{{ site.baseurl }}/atom.xml">
 
 <!-- Style and scripts files -->
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }} /assets/css/style.css">
-<link rel="stylesheet" type="text/css" href="{{ site.baseurl }} /assets/css/syntax.css">
-
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }} /assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }} /assets/css/clean-blog.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <!--<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/mobile.css" media="handheld" /> -->
 
 <!-- Extra information about this page -->
