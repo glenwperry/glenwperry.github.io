@@ -2,7 +2,7 @@
 layout: default
 title: Portfolio
 ---
-
+<!-- 
 [Club1984](/club1984/index.html)
 
 [Guido's Van Nuys - InDesign](/guidos/menu.pdf)
@@ -11,7 +11,7 @@ title: Portfolio
 
 [Augmented Reality Demo Video - Unity3d and Vuforia](https://youtu.be/K3tCvHRkdcg)
 
-[California Backpacking Tours](/unplugged/index.html)
+[California Backpacking Tours](/unplugged/index.html) -->
 
 [Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter + John Ritter Quotes](https://twitter.com/_ritter_cam)
 
