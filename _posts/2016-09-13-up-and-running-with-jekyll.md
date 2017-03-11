@@ -13,6 +13,6 @@ Jekyll is a parsing engine bundled as a ruby gem that lets you use partials/layo
 How 
 -----------------
 
-https://jekyllrb.com/docs/windows/
+[Jekyll For Windows Starter](https://jekyllrb.com/docs/windows/)
 
 
