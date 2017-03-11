@@ -1,26 +1,24 @@
 ---
 layout: post
-title: Static HTML5 and CSS3 From Scratch
-date: 2016-09-26
-categories: "web design, html5, css3, modal, mailing list"
-tags: "web design, html5, css3, modal, mailing list"
-published: false
+title: Pulse - A Solution For Businesses
+date: 2016-10-01
+categories: "webapi mvc .net c#"
+tags: "webapi mvc .net c#"
+published: true
 ---
 
-What I Made
+What is Pulse?
 ------------
-Here's a <http://glenwperry.github.io/club1984/index.html> demo website for a 80s theme dance night in Bellflower.
 
-What I Learned
+https://pulsecounter122920161230081918.azurewebsites.net/
+
+Pulse is a mobile application that lets businesses track how many people are entering and exiting their establishment. Register your business and create a unique organization key, share that key with your employees, and start tracking your popularity.
+
+Employee-users keep a headcount with their mobile device and end-users can login and see what's good in the hood.
+
+Use your stored Pulse data to gain new insight into your customers, track the effects of changes to your business and reach new demographics.
+
+Technologies
 -----------------
-- Pop up modal (still trying to get it to send form info to .asp) (**not possible with Github sites)
-- Color gradients (review the three separate browser specifications)
-- Big challenge in alignment. Seems stupidly difficult to align stuff with html5 - margins, top, left, inline-block, etc.
-- Did a full protoype with Illustrator, which was just as tricky as making the actual site. Things changed in the coding process.
+- WebApi, MVC, SQL, JQuery, Azure, GoogleMapsApi
 
-What I Still Need To Do
------------------------
-
-- Add thumbnail and popout modal for wireframes/prototype here
-- Make input to .asp work
-- SEO
