@@ -20,8 +20,6 @@ Bots
 
 Design
 ---------------
-[Club1984 - Static HTML](/club1984/index.html)
-
 [Guido's Van Nuys - InDesign](/guidos/menu.pdf)
 
 [Temple of Baphomet - Illustrator](/baphomet/baphomet.png)
