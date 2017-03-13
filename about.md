@@ -16,7 +16,7 @@ My Computing Timeline
 
 1996 - My cousin from Bakersfield lets me join his "hacking crew". We download all the progz we can find and mail-bomb each other all summer. My hacker name is DjWaRLocK. 
 
-1998 - My friends and I learn how to `view source` and use use `img-src`. We make lots of Angelfire sites about professional wrestling.
+1998 - My friends and I learn about `view source` and `img-src`. We make lots of Angelfire sites about professional wrestling.
 
 2001 - I drool over the [Soyo Dragon motherboard](http://techreport.com/review/3294/soyo-sy-k7v-dragon-plus-motherboard) for a year. I eventually get one and build my first computer.
 
@@ -32,4 +32,4 @@ My Computing Timeline
 
 2016 - I leave Glass Lewis and begin working with retgrid.com using TFS, AngularJS, C#, SqlServer.
 
-2017 - Retgrid is ready to take on users/investors and development winds down. I'm ready to start a new challenge where I can be the best coder I can be.
+2017 - Retgrid dvelopment begins winding down. I'm ready to start a new challenge where I can be the best coder I can be.
