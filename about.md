@@ -10,11 +10,11 @@ What Am I Doing Right Now?
 --------------------------
 Winding down my role with [Retgrid](https://www.retgrid.com), hashing out a plan for my geo-caching app, and trying to get 10,000 steps per day.
 
-My Computing Timeline
+<!-- My Computing Timeline
 ----------------------------
 1994 - In order to play [Banshee](http://gamesnostalgia.com/en/game/banshee) I'm forced to find the .exe using the the command line.
 
-1996 - My cousin from Bakersfield lets me join his "hacking crew". We download all the progz we can find and mail-bomb each other all summer. My hacker name is DjWaRLocK. 
+1996 - My cousin from Bakersfield lets me join his "hacking crew". We download all the progz we can find and mail-bomb each other all summer.
 
 1998 - My friends and I learn about `view source` and `img-src`. We make lots of Angelfire sites about professional wrestling.
 
@@ -32,4 +32,4 @@ My Computing Timeline
 
 2016 - I leave Glass Lewis and begin working with retgrid.com using TFS, AngularJS, C#, SqlServer.
 
-2017 - Retgrid dvelopment begins winding down. I'm ready to start a new challenge where I can be the best coder I can be.
+2017 - Retgrid development begins winding down. I'm ready to start a new challenge where I can be the best coder I can be. -->
