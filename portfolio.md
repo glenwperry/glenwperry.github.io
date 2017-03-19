@@ -4,11 +4,11 @@ title: Portfolio
 ---
 Apps/Sites
 ----
-[Pulse - ASP.NET, WebAPI, MVC5](https://pulsecounter122920161230081918.azurewebsites.net/)
+[Pulse - ASP.NET, WebAPI, MVC5, Identity/Entity Frameworks](https://pulsecounter122920161230081918.azurewebsites.net/)
 
-[Club1984 - Static HTML](/club1984/index.html)
+[Club1984](/club1984/index.html)
 
-[California Backpacking Tours - JQuery](/unplugged/index.html)
+[California Backpacking Tours](/unplugged/index.html)
 
 AR/VR
 -----
@@ -16,7 +16,7 @@ AR/VR
 
 Bots
 ----
-[Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter + John Ritter Quotes](https://twitter.com/_ritter_cam)
+[Rasberry Pi Motion Detecting Nature Cam + Auto-Tweeter - Python, Linux, Twitter API](https://twitter.com/_ritter_cam)
 
 Design
 ---------------
