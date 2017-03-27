@@ -10,7 +10,7 @@ Apps/Sites
 
 [California Backpacking Tours](/unplugged/index.html)
 
-[Farm Connect - National Geospatial-Intelligence Agency Hackathon Entry - MVC5, WebApi, SQL, GoogleMapsApi](http://farmconnect2.azurewebsites.net/)
+[Farm Connect - National Geospatial-Intelligence Agency Hackathon Entry - MVC5, WebApi, SQL, GoogleMapsApi](http://farmconnect2.azurewebsites.net/) 
 
 AR/VR
 -----
