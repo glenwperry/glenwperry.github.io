@@ -1,0 +1,249 @@
+html, body, section, footer {
+    margin: auto;
+    overflow: auto;
+}
+
+section {
+    padding: 0%;
+}
+
+h1 {
+    font-family: "Roboto Condensed", Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h1, p, footer {
+    z-index: 2
+}
+
+body {
+    font: 1.5em "Raleway", Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+
+a {
+  color: rgba(108, 246, 44, 1);
+  text-decoration: none;
+}
+
+
+#slide1 {
+    text-align: center;
+    background-image: url("../img/heathers.jpg");
+    background-size: cover;
+    background-position: 100% 20%;
+    padding-bottom: 10%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#club {
+    font-size: 12em;
+    color: rgba(108, 246, 44, .60);
+    margin: auto;
+}
+
+#intro {
+    display: inline-block;
+}
+
+#intro > h1 {
+    font-size: 3em;
+    background: black;
+    color: white;
+    position: relative;
+}
+
+#slide2 {
+    padding: 5%;
+    padding-bottom: 5%;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #f62cd1), color-stop(100%, #2CD1F6));
+    background: -webkit-linear-gradient(top, #f62cd1 0%, #2CD1F6 100%);
+    background: linear-gradient(to bottom, #f62cd1 0%, #2CD1F6 100%);
+    position: relative;
+}
+
+#table {
+    margin: auto;
+    width: 80%;
+}
+
+
+#td1 {
+    border: 1px solid white;
+    vertical-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+}
+
+#td2 {
+   border: 1px solid white;
+   border-top: none;
+   border-right: none;
+   vertical-align: top;
+   width: 50%;
+
+}
+
+#td3 {
+  vertical-align: center;
+
+}
+
+#td4 {
+  border-left: 1px solid white;
+}
+
+.info {
+  padding: 5%;
+}
+
+.info h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+#one {
+  color: black;
+  padding-bottom: 15%;
+}
+
+#two {
+  color: white;
+  padding-bottom: 15%;
+}
+
+#three {
+  padding-top: 15%;
+  color: white;
+  padding-bottom: 15%;
+}
+
+
+#four {
+  padding-top: 15%;
+  color: black;
+  padding-bottom: 15%;
+}
+
+#five {
+    padding-top: 5%;
+    display: inline-block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#days {
+  border-bottom: 1px solid white;
+  max-width: 50%;
+  margin: auto;
+}
+
+#slide3 {
+    text-align: center;
+    background-image: url("../img/license.jpg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+#outro {
+    display: inline-block;
+}
+
+#outro > p {
+  font-size: 1.5em;
+    background: black;        
+    color: white;
+    position: relative;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  position: relative;
+  font-size: 1.5em;
+}
+
+#facebook {
+  color: black;
+  border-bottom: 3px dotted rgba(108, 246, 44, 1);
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+#number {
+  padding-left:20%;
+}
+
+#email {
+  padding-left: 20%;
+}
+
+.modalDialog {
+  position: fixed;
+  font-family: "Roboto Condensed", Helvetica, Helvetica Neue, Arial, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  color: white;
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 3% 0% 3% 0%;
+  border-radius: 10px;
+  background: black;
+  border: 5px solid white;
+}
+
+
+
+.close {
+  background: black;
+  color: white;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+  background: rgba(108, 246, 44, 1);
+  color: black;
+}
+
+
+

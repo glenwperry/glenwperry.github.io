@@ -10,8 +10,11 @@ Apps/Sites
 
 [California Backpacking Tours](/unplugged/index.html)
 
+<<<<<<< HEAD
 [Farm Connect - National Geospatial-Intelligence Agency Hackathon Entry - MVC5, WebApi, SQL, GoogleMapsApi](http://farmconnect2.azurewebsites.net/) 
 
+=======
+>>>>>>> parent of 85c27b2... added farm connect
 AR/VR
 -----
 [Augmented Reality - Unity3d and Vuforia](https://youtu.be/K3tCvHRkdcg)
