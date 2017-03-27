@@ -4,11 +4,11 @@ title: About
 ---
 About Me
 --------
-I'm a .NET web developer from Los Angeles with 5+ years experience in the financial services industry.
+I'm a .NET web developer from Los Angeles.
 
 What Am I Doing Right Now?
 --------------------------
-Winding down my role with [Retgrid](https://www.retgrid.com), hashing out a plan for my geo-caching app, and trying to get 10,000 steps per day.
+Winding down my role with [Retgrid](https://www.retgrid.azurewebsites.net), hashing out a plan for my geo-caching app, and trying to get 10,000 steps per day.
 
 <!-- My Computing Timeline
 ----------------------------
