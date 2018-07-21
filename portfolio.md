@@ -4,15 +4,15 @@ title: Portfolio
 ---
 Apps/Sites
 ----
-[Pulse - ASP.NET, WebAPI, MVC5, Identity/Entity Frameworks](https://pulsecounter122920161230081918.azurewebsites.net/)
+[~~Pulse - ASP.NET, WebAPI, MVC5, Identity/Entity Frameworks~~](https://pulsecounter122920161230081918.azurewebsites.net/)
 
-[Club1984](/club1984/index.html)
+[Club1984 JQuery - Static HTML/CSS](/club1984/index.html)
 
-[California Backpacking Tours](/unplugged/index.html)
+[California Backpacking Tours - JQuery](/unplugged/index.html)
 
-[Farm Connect - National Geospatial-Intelligence Agency Hackathon Entry - MVC5, WebApi, SQL, GoogleMapsApi](http://farmconnect2.azurewebsites.net/) 
+[~~Farm Connect - National Geospatial-Intelligence Agency Hackathon Entry - MVC5, WebApi, SQL, GoogleMapsApi~~](http://farmconnect2.azurewebsites.net/)
 
-[Ghost - Geocaching app with AngularJS1, MVC5, WebApi, SQL, C#](https://ghost8web20170404013145.azurewebsites.net/)
+[Ghost - Geocaching app with Azure, AngularJS1, MVC5, WebApi, SQL-Server, C#](https://ghost8.azurewebsites.net/)
 
 
 AR/VR
