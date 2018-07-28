@@ -4,11 +4,11 @@ title: About
 ---
 About Me
 --------
-I'm a .NET web developer from Los Angeles.
+I'm a full-stack developer in L.A. who is interested in ML and computer vision.
 
 What Am I Doing Right Now?
 --------------------------
-Winding down my role with [Retgrid](https://retgrid.azurewebsites.net), hashing out a plan for my geo-caching app, and trying to get 10,000 steps per day.
+Currently working for a video game studio in Java as backend engineer with a side dish of devops and React/Redux.
 
 <!-- My Computing Timeline
 ----------------------------
